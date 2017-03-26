@@ -1,6 +1,6 @@
 var size = prompt('podaj wysokosc')
 
-function rysujChoinke (size) {
+function drawTree (size) {
 	for (i=0; i<=size; i++) {
 		var star = '';
 
@@ -11,5 +11,5 @@ function rysujChoinke (size) {
 	}
 }
 
-var rysuj = rysujChoinke(size);
-console.log(rysuj);
+var draw = drawTree(size);
+console.log(draw);
